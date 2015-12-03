@@ -1,0 +1,53 @@
+body {
+  background-color: #6698FF;
+  margin: 0;
+  padding: 0; }
+  body #jumper {
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: absolute;
+    left: 100px; }
+  body #highscoreList {
+    width: 50%;
+    background: grey;
+    visibility: hidden;
+    z-index: 10;
+    position: relative;
+    left: 25%;
+    top: 10%; }
+  body #info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background: grey; }
+    body #info #pausebutton {
+      width: 7%;
+      height: 30%; }
+    body #info #score {
+      text-align: center; }
+    body #info #changeUser {
+      position: absolute;
+      bottom: 0;
+      height: 98%;
+      border: 2px solid red; }
+    body #info #topHighscoreList {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 98%;
+      border: 2px solid red;
+      background-color: rgba(255, 255, 255, 0.2); }
+      body #info #topHighscoreList h2 {
+        margin: 3px;
+        text-align: center;
+        font-size: 30px; }
+      body #info #topHighscoreList table, body #info #topHighscoreList th, body #info #topHighscoreList td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 20px; }
+      body #info #topHighscoreList th, body #info #topHighscoreList td {
+        padding: 4px; }
+
+/*# sourceMappingURL=style.css.map */
